@@ -1,0 +1,9 @@
+# 依赖与系统文件
+node_modules/
+.DS_Store
+
+# npm pack 的产物
+*.tgz
+
+# 本机评测数据（含本机路径），不随仓库分发
+eval/cases.json

@@ -1,0 +1,37 @@
+{
+  "name": "magic-open",
+  "version": "0.3.0",
+  "description": "一句中文描述，让大模型帮你找到文件夹并用 Finder/VSCode 打开（macOS，支持 DeepSeek/通义/GLM/Kimi/豆包 等国产模型）",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "eval": "node eval/eval.mjs"
+  },
+  "bin": {
+    "magic-open": "bin/magic-open.mjs",
+    "mag": "bin/magic-open.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "cli",
+    "spotlight",
+    "mdfind",
+    "llm",
+    "open",
+    "finder",
+    "vscode",
+    "deepseek",
+    "qwen",
+    "glm",
+    "kimi"
+  ],
+  "files": [
+    "bin/",
+    "install.sh",
+    "README.md",
+    "docs/configuration.md"
+  ]
+}
